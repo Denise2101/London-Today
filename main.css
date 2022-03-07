@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff4ec;
+  color: black;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 300px) {
+  .container {
+    margin-top: 0;
+    padding: 0rem;
+    background-color: black;
+    height: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .icon {
+    color: whitesmoke;
+    width: 7rem;
+  }
+
+  .logo {
+    position: absolute;
+    margin-left: 0.8rem;
+    padding-top: 1rem;
+  }
+
+  .logo-image {
+    float: left;
+    position: relative;
+    width: 7rem;
+  }
+
+  nav.dropdown {
+    font-size: 1rem;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 0;
+    height: 2rem;
+    padding-top: 2rem;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+
+  #menuToggle a {
+    color: red;
+  }
+
+  #menuToggle a:hover {
+    color: #ac0700;
+  }
+
+  .main-container {
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  .hero {
+    margin-top: 3rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    color: #fff4ec;
+  }
+
+  .live-camera {
+    padding: 1rem;
+    width: 100%;
+    height: 17rem;
+    isolation: isolate;
+  }
+
+  .title {
+    color: #ac0700;
+  }
+  .title-watch-live {
+    padding: 0rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    margin-top: 3rem;
+    padding: 0rem;
+  }
+
+  .groups {
+    background-color: #fff4ec;
+    color: #ac0700;
+    text-align: center;
+    width: 95%;
+    height: 38rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .groups:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+}
+
+.group-one,
+.group-two {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+#weatherResults {
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+#weatherResults:hover {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin-top: 0;
+    padding: 0rem;
+    margin-bottom: 5rem;
+    background-color: black;
+    height: 10rem;
+  }
+
+  .logo {
+    position: absolute;
+    margin-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .icon {
+    display: inline-block;
+    color: whitesmoke;
+    width: 7rem;
+  }
+
+  .logo-image {
+    float: right;
+    position: relative;
+    width: 15rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav.dropdown {
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 0;
+    padding-top: 2rem;
+  }
+
+  #menuToggle {
+    display: none;
+  }
+
+  #menuToggle a {
+    color: red;
+  }
+
+  #menuToggle a:hover {
+    color: #ac0700;
+  }
+
+  .hero {
+    width: 120rem;
+    margin-top: 1rem;
+    margin: 1rem auto;
+    padding: 8rem;
+    background-color: black;
+  }
+
+  .main-container {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .live-camera {
+    margin-right: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 50rem;
+    padding: 1rem;
+    isolation: isolate;
+  }
+
+  .title {
+    color: #ac0700;
+  }
+
+  .title-watch-live {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .main-content {
+    width: 120rem;
+    margin: 4rem auto;
+    background-color: #fff4ec;
+  }
+
+  .groups {
+    background-color: #fff4ec;
+    color: #ac0700;
+    text-align: center;
+    border: 0.3rem solid black;
+    margin: 1rem auto;
+    transition: 0.3s;
+    width: 100%;
+    height: 38rem;
+  }
+
+  .groups:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .group-one,
+  .group-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #weatherResults {
+    text-align: center;
+    font-family: "Roboto" sans-serif;
+    color: black;
+    font-size: 2.75rem;
+  }
+  #weatherResults:hover {
+    color: whitesmoke;
+  }
+}
